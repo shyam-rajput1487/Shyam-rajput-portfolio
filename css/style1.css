@@ -1,0 +1,43 @@
+:root {
+    --primary-text-color: black;
+    --secondary-background-color: rgb(39, 36, 36);
+    --card-background-color: #fff;
+    --background-color: #eee;
+    --box-padding: 20px;
+    --default-margin: 40px;
+}
+
+.dark {
+    --primary-text-color: #fff;
+    --secondary-background-color: #ddd;
+    --card-background-color: #232222;
+    --background-color: rgb(25, 25, 23);
+
+}
+
+.container {
+    padding: 40px;
+    background-color: var(--background-color);
+}
+
+h1 {
+    text-align: center;
+    color: var(--primary-text-color);
+
+}
+
+p {
+    color: var(--primary-text-color);
+}
+
+h2 {
+    color: var(--primary-text-color);
+}
+
+.box {
+    padding: var(--box-padding);
+    margin-block: var(--default-margin);
+    /* background-color: var(--secondary-background-color); */
+    background-color: var(--card-background-color);
+    border-radius: 25px;
+}
