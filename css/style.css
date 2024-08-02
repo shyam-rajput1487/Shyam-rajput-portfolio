@@ -19,7 +19,8 @@
 
 body {
 	font-family: 'popins', sans-serif;
-	/* background-color: black; */
+	/* background-color: black;
+	background-color: black; */
 }
 
 h1 {
@@ -48,6 +49,7 @@ p {
 	background-color: #119ff8;
 	background-size: 300px;
 	/* background-repeat: no-repeat; */
+
 }
 
 .container {
@@ -163,6 +165,9 @@ p {
 	/* background-color:var(--box-color); */
 	border-radius: 10px;
 	margin: 5px;
+	width: fit-content;
+	height: fit-content	;
+
 }
 
 .box a {
@@ -182,11 +187,14 @@ p {
 .container1 {
 	align-items: center;
 	justify-content: center;
+	display: flex;
+
 }
 
 .form {
 	text-align: center;
 }
+
 
 .input {
 	border-radius: 10px;
@@ -194,7 +202,7 @@ p {
 	color: lightblue;
 	caret-color: white;
 	font: weight 700px;
-	width: auto;
+	width: 200px;
 	height: 40px;
 	border: none;
 	outline: none;
@@ -236,6 +244,8 @@ p {
 	height: 450px;
 	width: 60%;
 	padding-top: 30px;
+	width: fit-content;
+	height: fit-content;
 }
 
 .h31 {
@@ -251,6 +261,8 @@ p {
 	width: 40%;
 	padding: 30px;
 	text-align: center;
+	width: fit-content;
+	height: fit-content;
 }
 
 .contact-icons {
@@ -277,6 +289,8 @@ a:hover {
 	font-size: 16px;
 	position: relative;
 	padding: 40px;
+	
+	height: fit-content;
 
 }
 
@@ -289,3 +303,11 @@ a:hover {
 		2px 4px 8px 0px rgba(0, 255, 255, 0.7),
 		2px 4px 30px 16px rgba(0, 255, 255, 0.7);
 }  */
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	[box*="col-"] {
+	  width: 100%;
+	}
+  }
+
+
