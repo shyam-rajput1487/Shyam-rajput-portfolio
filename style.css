@@ -1,0 +1,15 @@
+.favicon{
+	border-radius: 20px;
+}
+
+.nav-height{
+	height: 75px;
+    background-color: coral;
+}
+.nav-color{
+    color: white;
+    
+}
+.nav-color:hover{
+    color: rgb(224, 211, 211);
+}
