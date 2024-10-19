@@ -1,4 +1,4 @@
-.favicon{
+/* .favicon{
 	border-radius: 20px;
 }
 
@@ -8,8 +8,15 @@
 }
 .nav-color{
     color: white;
-    
+    background-color: coral;
 }
 .nav-color:hover{
     color: rgb(224, 211, 211);
 }
+body{
+    background-color: black;
+}
+.colapse-width{
+    width: 100rem;
+    float: right;
+} */
