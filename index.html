@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
 
+<!-- i have generated idea  for sarkari result  is home and myscheme  -->
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,39 +14,50 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg nav-height ">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="#" alt=""><span style="color: #b2f96b;">SYS</span>chemes</a>
-      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Toggle top offcanvas</button>
 
-      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <nav class="navbar bg-body-tertiary  navbar-expand-sm ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Offcanvas navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas top</h5>
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          
-      <!-- <div class="collapse navbar-collapse row " id="navbarNav"> -->
-        <ul class="navbar-nav  justify-content-center">
-          <li class="nav-item ">
-            <a class="nav-link activ nav-color" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link nav-color" href="#">Features</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link nav-color" href="#">Pricing</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link nav-color" href="#">Login</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link nav-color" href="#">Signup</a>
-          </li>
-          
-          
-        </ul>
-      <!-- </div> -->
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button> -->
+            <li class="nav-item navbar-nav">
+              <a class="nav-link" href="#">Login</a>
+              <a class="nav-link" href="#">Signup</a>
+            </li>
+          </form>
         </div>
       </div>
     </div>
