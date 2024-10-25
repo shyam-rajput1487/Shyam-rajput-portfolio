@@ -13,11 +13,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="bg-body-tertiary">
 
-  <nav class="navbar bg-body-tertiary  navbar-expand-sm ">
+  <nav class="navbar bg-body-tertiary  navbar-expand-sm NAV shadow-lg p-3 mb-5 bg-body-tertiary  sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Offcanvas navbar</a>
+      <a class="navbar-brand " href="#"><img class="brand" src="./image/SYSchemes.jpeg" alt="o"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
         aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,9 +33,12 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link active" href="#">Blog</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Articles</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Dropdown
@@ -48,14 +51,14 @@
                 </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </li>
+            </li>-->
           </ul>
           <form class="d-flex" role="search">
             <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button> -->
             <li class="nav-item navbar-nav">
-              <a class="nav-link" href="#">Login</a>
-              <a class="nav-link" href="#">Signup</a>
+              <a class="nav-link active" href="#">Login</a>
+              <a class="nav-link active" href="#">Signup</a>
             </li>
           </form>
         </div>
@@ -63,28 +66,55 @@
     </div>
   </nav>
 
-  <div id="carouselExample" class="carousel slide">
-    <div class="carousel-inner">
-      <div class="carousel-item active opacity-50">
-        <img src="./image/banner1.avif" class="d-block w-100" alt="...">
+
+  <div class="container-fluid ">
+    <div class="row ">
+      <div class="col-sm-6  mb-sm-0  text-center">
+        <div class="card CARD bs-tertiary-bg ">
+          <div class="card-body">
+            <h5 class="card-title ">Special title treatment</h5>
+            <p class="card-text ">With supporting text below as a natural lead-in to additional content.
+            </p>
+            <a href="./governmentJob.html" class="btn btn-primary ">Government Job...</a>
+            
+          </div>
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="./image/banner3.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./image/banner1.avif" class="d-block w-100" alt="...">
+
+      <div class="col-sm-6 text-center">
+        <div class="card CARD ">
+          <div class="card-body">
+            <h5 class="card-title ">Special title treatment</h5>
+            <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="./governmentJob.html" class="btn btn-primary text-center ">Government Scheme...</a>
+          </div>
+        </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
 
+  <div class="container-fluid">
+    <div class="row mt-3 ">
+      <div class="col-sm-6 mb-3 mb-sm-0 text-center">
+        <div class="card CARD">
+          <div class="card-body">
+            <h5 class="card-title ">Special title treatment</h5>
+            <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="./privateJob.html" class="btn btn-primary">Private Job</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 text-center">
+        <div class="card CARD">
+          <div class="card-body">
+            <h5 class="card-title ">Special title treatment</h5>
+            <p class="card-text ">With supporting text below as a natural lead-in to additional content.lorem </p>
+            <a href="#" class="btn btn-primary ">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>

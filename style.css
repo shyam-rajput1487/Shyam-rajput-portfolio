@@ -1,22 +1,21 @@
-/* .favicon{
-	border-radius: 20px;
+.favicon {
+    border-radius: 20px;
+}
+.brand{
+    height: 50px;
+    
+}
+.NAV {
+    height: 80px;
+    font-size: large;
 }
 
-.nav-height{
-	height: 75px;
-    background-color: coral;
+.CARD{
+    border-radius: 0%;
+    height:250px;
+    overflow: hidden;
+    /* border:none; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.nav-color{
-    color: white;
-    background-color: coral;
-}
-.nav-color:hover{
-    color: rgb(224, 211, 211);
-}
-body{
-    background-color: black;
-}
-.colapse-width{
-    width: 100rem;
-    float: right;
-} */
