@@ -1,17 +1,18 @@
 .favicon {
     border-radius: 20px;
 }
+
 .brand{
     height: 50px;
-    
 }
+
 .NAV {
     height: 80px;
     font-size: large;
 }
 
+
 .CARD{
-    
     border-radius: 0%;
     height:250px;
     overflow: hidden;
@@ -19,4 +20,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.footer{
+	text-align: center;
+    padding:20px;
+    /* background-color:rgb(224, 223, 223); */
 }
